@@ -1,6 +1,12 @@
 # Rocket Game
 
 Welcome to the Rocket Game! This is a simple interactive game implemented in C++ using the ncurses library.
+<!-- Include Font Awesome CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+<!-- Add an icon in the README -->
+<i class="fas fa-rocket"></i>
+
 
 ## Features
 
