@@ -6,6 +6,7 @@ Welcome to the Rocket Game! This is a simple interactive game implemented in C++
 
 <!-- Add an icon in the README -->
 <i class="fas fa-rocket"></i>
+:rocket: - Inserted as Unicode emoji
 
 
 ## Features
