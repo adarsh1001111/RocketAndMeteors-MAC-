@@ -6,7 +6,8 @@ Welcome to the Rocket Game! This is a simple interactive game implemented in C++
 
 <!-- Add an icon in the README -->
 <i class="fas fa-rocket"></i>
-:rocket: ![Rocket Game](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fmeteor-asteroid%2F14&psig=AOvVaw3fNxDLQRsov8Vu-BwL-hxC&ust=1704216790875000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCLjZj7jcvIMDFQAAAAAdAAAAABAE)
+:rocket: 
+![Rocket Game](https://img.freepik.com/free-vector/isolated-landscape-planet-surface-with-colony-buildings_1308-85739.jpg?w=2000&t=st=1704130532~exp=1704131132~hmac=cfb06ef87ce0e038b8621b3041c266b84b3dd28383b5e5bbb8b1d09c259bb286)
 
 
 
