@@ -7,7 +7,7 @@ Welcome to the Rocket Game! This is a simple interactive game implemented in C++
 <!-- Add an icon in the README -->
 <i class="fas fa-rocket"></i>
 :rocket: 
-![Rocket Game](https://img.freepik.com/free-vector/spacecraft-background_23-2147904159.jpg?w=1380&t=st=1705677595~exp=1705678195~hmac=5740c155c37e0fb32a13e848685936331019cc8636459f1b4e8266c70bbb2e9e)
+![Rocket Game](https://img.freepik.com/free-vector/spacecraft-background_23-2147904379.jpg?w=1380&t=st=1705678065~exp=1705678665~hmac=26c33275a80057273b229f77575a995c84b055dcab91b06aab60bb4fa3d9128a)
 
 
 
