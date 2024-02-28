@@ -8,7 +8,7 @@ Welcome to the Rocket Game! This is a simple interactive game implemented in C++
 <i class="fas fa-rocket"></i>
 :rocket: 
 
-<img src="pictures/astral-wallpapers-composition-with-neon-machine.jpg" alt="GameIcon" width="100%">
+<img src="pictures/astral-wallpapers-composition-with-neon-machine.jpg" alt="GameIcon" width="80%">
 
 ## Features
 
