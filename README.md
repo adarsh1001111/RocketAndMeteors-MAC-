@@ -70,10 +70,10 @@ Welcome to Rocket Adventure, where you embark on an exhilarating journey through
 -Power-ups: Collect power-ups marked as [o] to boost your score by 50 points. Seize them whenever possible to maximize your score.
 
 *Levels*:
--Level 1 (Score < 500): Begin your journey at a leisurely pace. The speed is slow, allowing for easier navigation through space.
--Level 2 (500 ≤ Score < 1000): As you progress, the challenge intensifies. The speed increases to a medium pace, testing your reflexes and agility.
--Level 3 (Score ≥ 1000): Reach the pinnacle of space exploration. The speed becomes fast, and additional challenges await with air-drops [^] threatening to destroy your rocket if its tail is hit.
+- Level 1 (Score < 500): Begin your journey at a leisurely pace. The speed is slow, allowing for easier navigation through space.
+- Level 2 (500 ≤ Score < 1000): As you progress, the challenge intensifies. The speed increases to a medium pace, testing your reflexes and agility.
+- Level 3 (Score ≥ 1000): Reach the pinnacle of space exploration. The speed becomes fast, and additional challenges await with air-drops [^] threatening to destroy your rocket if its tail is hit.
 
 ##Contributing
 
-Found a bug or want to improve the game? Contributions are welcome! Feel free to open an issue or submit a pull request.
+- Found a bug or want to improve the game? Contributions are welcome! Feel free to open an issue or submit a pull request.
