@@ -23,7 +23,7 @@ Welcome to the Rocket Game! This is a simple interactive game implemented in C++
 Before running the game, ensure you have the following installed:
 
 - C++ compiler
-- ncurses library
+- ncurses library [MAC-specific]
 
 ## Getting Started
 
@@ -34,6 +34,7 @@ Before running the game, ensure you have the following installed:
 2.**Compile the Game**
 cd rocket-game
 g++ -o rocket_game main.cpp -lncurses
+(Screenshot 2024-02-28 at 7.44.49 PM.png)
 
 3.**Run the Game**
 ./rocket_game
