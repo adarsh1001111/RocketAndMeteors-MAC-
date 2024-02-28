@@ -32,6 +32,7 @@ Before running the game, ensure you have the following installed:
    git clone https://github.com/your-username/rocket-game.git
    ```
 2.**Compile the Game**
+
 Navigate to the Game folder
 ```bash
 cd rocket-game
@@ -48,10 +49,10 @@ g++ -o rocket_game main.cpp -lncurses
 ------------------------
 ## Controls
 
--W/S: Move the Rocket up/down
--A/D: Move the Rocket Left/Right [ACTIVATED IN LEVEL 3]
--F: Fire Lazer from the rocket's nose which can destroy the meteor it strikes [ACTIVATED IN LEVEL 3]
--Q: Quit the game which playing
+- W/S: Move the Rocket up/down
+- A/D: Move the Rocket Left/Right [ACTIVATED IN LEVEL 3]
+- F: Fire Lazer from the rocket's nose which can destroy the meteor it strikes [ACTIVATED IN LEVEL 3]
+- Q: Quit the game which playing
 
 ## Gameplay
 
