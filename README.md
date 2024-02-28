@@ -48,10 +48,10 @@ g++ -o rocket_game main.cpp -lncurses
 ------------------------
 ## Controls
 
-W/S: Move the Rocket up/down
-A/D: Move the Rocket Left/Right [ACTIVATED IN LEVEL 3]
-F: Fire Lazer from the rocket's nose which can destroy the meteor it strikes [ACTIVATED IN LEVEL 3]
-Q: Quit the game which playing
+-W/S: Move the Rocket up/down
+-A/D: Move the Rocket Left/Right [ACTIVATED IN LEVEL 3]
+-F: Fire Lazer from the rocket's nose which can destroy the meteor it strikes [ACTIVATED IN LEVEL 3]
+-Q: Quit the game which playing
 
 ## Gameplay
 
@@ -65,13 +65,13 @@ Welcome to Rocket Adventure, where you embark on an exhilarating journey through
 
 *Obstacles*:
 
-Meteors: Beware of meteors drifting through space. Colliding with them will result in a game over.
-Power-ups: Collect power-ups marked as [o] to boost your score by 50 points. Seize them whenever possible to maximize your score.
+-Meteors: Beware of meteors drifting through space. Colliding with them will result in a game over.
+-Power-ups: Collect power-ups marked as [o] to boost your score by 50 points. Seize them whenever possible to maximize your score.
 
 *Levels*:
-Level 1 (Score < 500): Begin your journey at a leisurely pace. The speed is slow, allowing for easier navigation through space.
-Level 2 (500 ≤ Score < 1000): As you progress, the challenge intensifies. The speed increases to a medium pace, testing your reflexes and agility.
-Level 3 (Score ≥ 1000): Reach the pinnacle of space exploration. The speed becomes fast, and additional challenges await with air-drops [^] threatening to destroy your rocket if its tail is hit.
+-Level 1 (Score < 500): Begin your journey at a leisurely pace. The speed is slow, allowing for easier navigation through space.
+-Level 2 (500 ≤ Score < 1000): As you progress, the challenge intensifies. The speed increases to a medium pace, testing your reflexes and agility.
+-Level 3 (Score ≥ 1000): Reach the pinnacle of space exploration. The speed becomes fast, and additional challenges await with air-drops [^] threatening to destroy your rocket if its tail is hit.
 
 ##Contributing
 
