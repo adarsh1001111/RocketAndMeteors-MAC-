@@ -47,32 +47,63 @@ g++ -o rocket_game main.cpp -lncurses
 ```
 
 ------------------------
-## Controls
-
-- W/S: Move the Rocket up/down
-- A/D: Move the Rocket Left/Right [ACTIVATED IN LEVEL 3]
-- F: Fire Lazer from the rocket's nose which can destroy the meteor it strikes [ACTIVATED IN LEVEL 3]
-- Q: Quit the game which playing
-
 ## Gameplay
 
-Rocket And Meteros :
+# Rocket Adventure: Space Explorer
 
 Welcome to Rocket Adventure, where you embark on an exhilarating journey through the vast expanse of space! Take control of your rocket as you navigate through a series of challenging obstacles, collect power-ups, and strive to achieve the highest score possible. This README guide will provide you with all the necessary information to dive into the adventure.
 
-**Gameplay Overview**:
+## Gameplay Overview:
 
-*Objective*: Navigate the rocket through space, avoiding collisions with obstacles while collecting power-ups to increase your score.
+- **Objective:** Navigate the rocket through space, avoiding collisions with obstacles while collecting power-ups to increase your score.
+  
+- **Controls:** 
+  - Use the **W** and **S** keys to control the vertical movement of the rocket.
+  - Activate lateral movement when Level 3 is reached:
+    - **A:** Move the rocket to the left.
+    - **D:** Move the rocket to the right.
+  - **F:** Fire the laser when Level 3 is reached, destroying the front meteor.
 
-*Obstacles*:
+- **Obstacles:**
+  - **Meteors:** Beware of meteors drifting through space. Colliding with them will result in a game over.
+  - **Air-Drops:** Beware of the drops from the above when you reach Level 3 of the game.
+  
+- **Power-ups:** 
+  - Collect power-ups marked as [o] to boost your score by 50 points. Seize them whenever possible to maximize your score.
+  
+- **Levels:** 
+  - **Level 1 (Score < 500):** Begin your journey at a leisurely pace. The speed is slow, allowing for easier navigation through space.
+  - **Level 2 (500 ≤ Score < 1000):** As you progress, the challenge intensifies. The speed increases to a medium pace, testing your reflexes and agility.
+  - **Level 3 (Score ≥ 1000):** Reach the pinnacle of space exploration. The speed becomes fast, and additional challenges await with air-drops [^] threatening to destroy your rocket if its tail is hit.
 
--Meteors: Beware of meteors drifting through space. Colliding with them will result in a game over.
--Power-ups: Collect power-ups marked as [o] to boost your score by 50 points. Seize them whenever possible to maximize your score.
+## How to Play:
 
-*Levels*:
-- Level 1 (Score < 500): Begin your journey at a leisurely pace. The speed is slow, allowing for easier navigation through space.
-- Level 2 (500 ≤ Score < 1000): As you progress, the challenge intensifies. The speed increases to a medium pace, testing your reflexes and agility.
-- Level 3 (Score ≥ 1000): Reach the pinnacle of space exploration. The speed becomes fast, and additional challenges await with air-drops [^] threatening to destroy your rocket if its tail is hit.
+1. Clone the repository to your local machine.
+2. Open the project directory and launch the game.
+3. Use the W/S keys to maneuver the rocket through space.
+4. Use A/D keys to move laterally and F key to fire the laser in Level 3.
+5. Collect power-ups for additional points and avoid collisions with meteors.
+6. Progress through levels by achieving higher scores and test your skills in increasingly challenging environments.
+
+## Levels:
+
+- **Level 1:**  
+  ![Level 1](pictures/Screenshot 2024-02-28 at 7.45.24 PM.png)
+
+- **Level 2:**  
+  ![Level 2](pictures/Screenshot 2024-02-28 at 7.45.58 PM.png)
+
+- **Level 3:**  
+  ![Level 3](pictures/Screenshot 2024-02-28 at 7.46.19 PM.png)
+
+## Leaderboard:
+
+After completing your adventure, check the leaderboard to see how your score stacks up against other space explorers!
+
+![Leaderboard](pictures/Screenshot 2024-02-28 at 7.46.49 PM.png)
+
+Enjoy the enhanced control options in Level 3, and may your laser aim be true as you conquer the challenges of space exploration in Rocket Adventure!
+
 
 ##Contributing
 
