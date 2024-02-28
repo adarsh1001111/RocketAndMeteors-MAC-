@@ -7,7 +7,7 @@ Welcome to the Rocket Game! This is a simple interactive game implemented in C++
 <!-- Add an icon in the README -->
 <i class="fas fa-rocket"></i>
 :rocket: 
-![Rocket Game](astral-wallpapers-composition-with-neon-machine.jpg)
+![Rocket Game](../pictures/astral-wallpapers-composition-with-neon-machine.jpg)
 
 
 
@@ -88,19 +88,19 @@ Welcome to Rocket Adventure, where you embark on an exhilarating journey through
 ## Levels:
 
 - **Level 1:**  
-  ![Level 1](pictures/Screenshot 2024-02-28 at 7.45.24 PM.png)
+  ![Level 1](../pictures/Screenshot 2024-02-28 at 7.45.24 PM.png)
 
 - **Level 2:**  
-  ![Level 2](pictures/Screenshot 2024-02-28 at 7.45.58 PM.png)
+  ![Level 2](../pictures/Screenshot 2024-02-28 at 7.45.58 PM.png)
 
 - **Level 3:**  
-  ![Level 3](pictures/Screenshot 2024-02-28 at 7.46.19 PM.png)
+  ![Level 3](../pictures/Screenshot 2024-02-28 at 7.46.19 PM.png)
 
 ## Leaderboard:
 
 After completing your adventure, check the leaderboard to see how your score stacks up against other space explorers!
 
-![Leaderboard](pictures/Screenshot 2024-02-28 at 7.46.49 PM.png)
+![Leaderboard](../pictures/Screenshot 2024-02-28 at 7.46.49 PM.png)
 
 Enjoy the enhanced control options in Level 3, and may your laser aim be true as you conquer the challenges of space exploration in Rocket Adventure!
 
