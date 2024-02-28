@@ -415,12 +415,20 @@ public:
                 if (iss >> name >> score)
                 {
                     Player random(name, score);
-                    if (Leaderboard.size() < max_leaderboard_size)
-                        Leaderboard.push_back(random);
-                    else
-                    {
-                        cout << "error while displaying NICK name due to unspecified format !";
+                    int index=searchinLeaderBoard(random,Leaderboard);
+                    if(index!=-1){
+                        if(random.getScore()>Leaderboard[index].getScore()){
+                            Leaderboard[index].setscore(random.getScore());
+                        }
+                        
+                        
                     }
+                    else{
+                    Leaderboard.push_back(random);
+                    }
+                   
+                    sort(Leaderboard.begin(),Leaderboard.end(),compare);
+                  
                 }
             }
             fclose(file);
@@ -768,8 +776,8 @@ int main()
                  << "Invalid input !!" << endl
                  << endl;
             invalid = true;
-            cout << "Press 1 to Start your cosmos Adventure " << endl
-                 << "Press 0 to end" << endl;
+            cout << "Press 1 to Enter the game " << endl
+                 << "Press 0 to exit the program" << endl;
             cin >> n;
         }
         }
