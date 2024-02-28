@@ -7,9 +7,7 @@ Welcome to the Rocket Game! This is a simple interactive game implemented in C++
 <!-- Add an icon in the README -->
 <i class="fas fa-rocket"></i>
 :rocket: 
-![Rocket Game](pictures/astral-wallpapers-composition-with-neon-machine.jpg)
-
-
+<img src="pictures/astral-wallpapers-composition-with-neon-machine.jpg" alt="GameIcon" width="50%">
 
 ## Features
 
@@ -84,23 +82,29 @@ Welcome to Rocket Adventure, where you embark on an exhilarating journey through
 4. Use A/D keys to move laterally and F key to fire the laser in Level 3.
 5. Collect power-ups for additional points and avoid collisions with meteors.
 6. Progress through levels by achieving higher scores and test your skills in increasingly challenging environments.
+7. 
+## Start Screen:
 
+- Enter your username to begin your space exploration adventure.
+- You'll be presented with the rules of the game.
+- Press '1' key to start the game after reading the rules.
+  ![Start Screen](pictures/Rules.png)
 ## Levels:
 
 - **Level 1:**  
-  ![Level 1](pictures/Screenshot 2024-02-28 at 7.45.24 PM.png)
+  <img src="pictures/Level-1.png" alt="Level 1" width="50%">
 
 - **Level 2:**  
-  ![Level 2](pictures/Screenshot 2024-02-28 at 7.45.58 PM.png)
+  <img src="pictures/Level-2.png" alt="Level 2" width="50%">
 
 - **Level 3:**  
-  ![Level 3](pictures/Screenshot 2024-02-28 at 7.46.19 PM.png)
+  <img src="pictures/Level-3.png" alt="Level 3" width="50%">
 
 ## Leaderboard:
 
 After completing your adventure, check the leaderboard to see how your score stacks up against other space explorers!
 
-![Leaderboard](pictures/Screenshot 2024-02-28 at 7.46.49 PM.png)
+<img src="pictures/Leaderboard.png" alt="Leaderboard" width="50%">
 
 Enjoy the enhanced control options in Level 3, and may your laser aim be true as you conquer the challenges of space exploration in Rocket Adventure!
 
