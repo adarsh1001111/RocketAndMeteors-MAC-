@@ -428,12 +428,7 @@ public:
                     }
                    
                     sort(Leaderboard.begin(),Leaderboard.end(),compare);
-                    // if (Leaderboard.size() < max_leaderboard_size)
-                        
-                    // else
-                    // {
-                    //     cout << "error while displaying NICK name due to unspecified format !";
-                    // }
+                   
                 }
             }
             fclose(file);
