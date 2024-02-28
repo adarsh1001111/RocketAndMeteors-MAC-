@@ -415,20 +415,12 @@ public:
                 if (iss >> name >> score)
                 {
                     Player random(name, score);
-                    int index=searchinLeaderBoard(random,Leaderboard);
-                    if(index!=-1){
-                        if(random.getScore()>Leaderboard[index].getScore()){
-                            Leaderboard[index].setscore(random.getScore());
-                        }
-                        
-                        
+                    if (Leaderboard.size() < max_leaderboard_size)
+                        Leaderboard.push_back(random);
+                    else
+                    {
+                        cout << "error while displaying NICK name due to unspecified format !";
                     }
-                    else{
-                    Leaderboard.push_back(random);
-                    }
-                   
-                    sort(Leaderboard.begin(),Leaderboard.end(),compare);
-                   
                 }
             }
             fclose(file);
