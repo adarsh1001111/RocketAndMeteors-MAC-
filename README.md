@@ -88,19 +88,19 @@ Welcome to Rocket Adventure, where you embark on an exhilarating journey through
 ## Levels:
 
 - **Level 1:**  
-  ![Level 1](pictures/Screenshot 2024-02-28 at 7.45.24 PM.png)
+  ![Level 1](pictures/Level-1.png)
 
 - **Level 2:**  
-  ![Level 2](pictures/Screenshot 2024-02-28 at 7.45.58 PM.png)
+  ![Level 2](pictures/Level-2.png)
 
 - **Level 3:**  
-  ![Level 3](pictures/Screenshot 2024-02-28 at 7.46.19 PM.png)
+  ![Level 3](pictures/Level-3.png)
 
 ## Leaderboard:
 
 After completing your adventure, check the leaderboard to see how your score stacks up against other space explorers!
 
-![Leaderboard](pictures/Screenshot 2024-02-28 at 7.46.49 PM.png)
+![Leaderboard](pictures/Leaderboard.png)
 
 Enjoy the enhanced control options in Level 3, and may your laser aim be true as you conquer the challenges of space exploration in Rocket Adventure!
 
