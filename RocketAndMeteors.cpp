@@ -728,7 +728,7 @@ int main()
         "    |  O  |                        2. Avoid the Meteors[#] in the path of the Rocket.\n"
         "    |  C  |  o                     3. Collect as many power-ups[o] as you can to boost your score.  \n"
         "    |  K  |                        4. The GAME is divided into 3 levels:-\n"
-        "    |  E  |                        Level 1: Speed slow | Level 2: Speed Medium | Level 3: Speed Fast+Drops[^]\n"
+        "    |  E  |                           Level 1: Speed slow | Level 2: Speed Medium | Level 3: Speed Fast+Drops[^]\n"
         "    |  T  |                        5. Press 'Q' key to Quit the Game while playing.\n"
         "    |     |\n"
         "    |     |\n"
@@ -776,8 +776,8 @@ int main()
                  << "Invalid input !!" << endl
                  << endl;
             invalid = true;
-            cout << "Press 1 to Enter the game " << endl
-                 << "Press 0 to exit the program" << endl;
+            cout << "Press '1'+return_key to Enter the game " << endl
+                 << "Press '0' to exit the program" << endl;
             cin >> n;
         }
         }
