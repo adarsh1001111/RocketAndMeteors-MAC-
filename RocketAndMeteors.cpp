@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <cstdio>
 #include <ncurses.h>
@@ -7,14 +6,15 @@
 #include <string>
 #include <sstream>
 #include <vector>
-
 #include <fstream>
+
+
 
 using namespace std;
 
 string currentplayerName;
 const int screen_width = 80;
-const int screen_height = 20;
+const int screen_height = 30;
 const char rocket_symbol = '>';
 const char meteor1_symbol = '#';
 const char powerup_symbol = 'o';
@@ -29,7 +29,6 @@ private:
     int score;
 
 public:
-    
     Player(const string &playerName, int playerScore)
     {
         name = playerName;
@@ -45,7 +44,24 @@ public:
     {
         return score;
     }
+    void setscore(int x){
+        score=x;
+    }
 };
+
+bool compare(Player a,Player b){
+    return a.getScore()<b.getScore();
+}
+int searchinLeaderBoard(Player temp,vector<Player>Leaderboard){
+    for(int i=0;i<Leaderboard.size();i++){
+        if(temp.getName()==Leaderboard[i].getName()){
+            // Leaderboard[i].setscore(temp.getScore());
+            return i;
+        }
+    }
+    return -1;
+}
+
 
 class Rocket
 {
@@ -399,12 +415,25 @@ public:
                 if (iss >> name >> score)
                 {
                     Player random(name, score);
-                    if (Leaderboard.size() < max_leaderboard_size)
-                        Leaderboard.push_back(random);
-                    else
-                    {
-                        cout << "error while displaying NICK name due to unspecified format !";
+                    int index=searchinLeaderBoard(random,Leaderboard);
+                    if(index!=-1){
+                        if(random.getScore()>Leaderboard[index].getScore()){
+                            Leaderboard[index].setscore(random.getScore());
+                        }
+                        
+                        
                     }
+                    else{
+                    Leaderboard.push_back(random);
+                    }
+                   
+                    sort(Leaderboard.begin(),Leaderboard.end(),compare);
+                    // if (Leaderboard.size() < max_leaderboard_size)
+                        
+                    // else
+                    // {
+                    //     cout << "error while displaying NICK name due to unspecified format !";
+                    // }
                 }
             }
             fclose(file);
@@ -752,8 +781,8 @@ int main()
                  << "Invalid input !!" << endl
                  << endl;
             invalid = true;
-            cout << "Press 1 to Enter the game " << endl
-                 << "Press 0 to exit the program" << endl;
+            cout << "Press 1 to Start your cosmos Adventure " << endl
+                 << "Press 0 to end" << endl;
             cin >> n;
         }
         }
