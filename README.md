@@ -84,7 +84,13 @@ Welcome to Rocket Adventure, where you embark on an exhilarating journey through
 4. Use A/D keys to move laterally and F key to fire the laser in Level 3.
 5. Collect power-ups for additional points and avoid collisions with meteors.
 6. Progress through levels by achieving higher scores and test your skills in increasingly challenging environments.
+7. 
+## Start Screen:
 
+- Enter your username to begin your space exploration adventure.
+- You'll be presented with the rules of the game.
+- Press '1' key to start the game after reading the rules.
+  ![Start Screen](pictures/Rules.png)
 ## Levels:
 
 - **Level 1:**  
